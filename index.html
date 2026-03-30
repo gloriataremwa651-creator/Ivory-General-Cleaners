@@ -1,9 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <head>
     <meta charset="UTF-8">
-    
+
     <title>Ivory General Cleaners</title>
     <style>
         body {
@@ -65,7 +66,8 @@
             color: #003366;
         }
 
-        form input, form textarea {
+        form input,
+        form textarea {
             display: block;
             width: 100%;
             padding: 10px;
@@ -91,76 +93,79 @@
 
 <body>
 
-<header>
-    <nav>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#location">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section id="home">
+        <h2>Welcome to Ivory General Cleaners</h2>
+        <p>
+            Ivory General Cleaners Ltd is a professional cleaning and laundry service company based in Kampala, Uganda.
+        </p>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2>About Ivory</h2>
+        <p>
+            It offers a range of services icluding residential and commercial cleaning, laundry, and general maintenance
+            to ensure clean and hygienic environments. The company is known for providing reliable and efficient
+            cleaning solutions to homes, offices, and businesses.
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services">
+        <h2>Our Services</h2>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#location">Location</a></li>
+            <li>Commercial cleaning</li>
+            <li>Laundry services</li>
+            <li>General maintenance to ensure clean and hygienic environments</li>
+            <li>Roof top cleaning</li>
+            <li>Floor cleaning both tiles and tarrazo</li>
         </ul>
-    </nav>
-</header>
+    </section>
 
-<!-- HOME SECTION -->
-<section id="home">
-    <h2>Welcome to Ivory General Cleaners</h2>
-    <p>
-        Ivory General Cleaners Ltd is a professional cleaning and laundry service company based in Kampala, Uganda.
-    </p>
-</section>
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label>Contact:</label>
+            <input type="text" name="0701816262" required>
 
-<!-- ABOUT SECTION -->
-<section id="about">
-    <h2>About Ivory</h2>
-    <p>
-       It offers a range of services icluding residential and commercial cleaning, laundry, and general maintenance to ensure clean and hygienic environments. The company is known for providing reliable and efficient cleaning solutions to homes, offices, and businesses.
-</section>
+            <label>Location:</label>
+            <input type="text" name="Nakawa" required>
 
-<!-- SERVICES SECTION -->
-<section id="services">
-    <h2>Our Services</h2>
-    <ul>
-        <li>Commercial cleaning</li>
-        <li>Laundry services</li>
-        <li>General maintenance to ensure clean and hygienic environments</li>
-        <li>Roof top cleaning</li>
-        <li>Floor cleaning both tiles and tarrazo</li>
-    </ul>
-</section>
+            <label>Telephone Number:</label>
+            <input type="tel" name="phone" required>
 
-<!-- CONTACT SECTION -->
-<section id="contact">
-    <h2>Contact Us</h2>
-    <form>
-        <label>Contact:</label>
-        <input type="text" name="0701816262" required>
+            <label>Date of Visit:</label>
+            <input type="date" name="visit_date" required>
 
-        <label>Location:</label>
-        <input type="text" name="Nakawa" required>
+            <button type="submit">Submit</button>
+            <p>Email: <a href="mailto:ivorygeneralcleaners@gmail.com">ivorygeneralcleaners@gmail.com</a></p>
+        </form>
+    </section>
 
-        <label>Telephone Number:</label>
-        <input type="tel" name="phone" required>
+    <!-- LOCATION SECTION-->
+    <section id="location">
+        <h2>Location</h2>
+        <p>We are located in the heart of Kampala, Uganda, making it convenient for our clients to access our services.
+        </p>
 
-        <label>Date of Visit:</label>
-        <input type="date" name="visit_date" required>
-
-        <button type="submit">Submit</button>
-        <p>Email: <a
-        href="mailto:ivorygeneralcleaners@gmail.com">ivorygeneralcleaners@gmail.com</a></p>
-    </form>
-</section>
-
-<!-- LOCATION SECTION-->
-<section id="location">
-    <h2>Location</h2>
-    <p>We are located in the heart of Kampala, Uganda, making it convenient for our clients to access our services.</p>
-
-</section>
-<footer>
-    <p>&copy; 2026 Ivory General Cleaners</p>
-</footer>
+    </section>
+    <footer>
+        <p>&copy; 2026 Ivory General Cleaners</p>
+    </footer>
 
 </body>
+
 </html>
